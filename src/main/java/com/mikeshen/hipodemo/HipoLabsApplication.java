@@ -1,13 +1,13 @@
-package com.mikeshen.countrydemo1;
+package com.mikeshen.hipodemo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CountryDemo1Application {
+public class HipoLabsApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(CountryDemo1Application.class, args);
+        SpringApplication.run(HipoLabsApplication.class, args);
     }
 
 }

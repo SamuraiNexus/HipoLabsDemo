@@ -1,4 +1,4 @@
-package com.mikeshen.countrydemo1.exception;
+package com.mikeshen.hipodemo.exception;
 
 
 import org.springframework.http.HttpStatus;

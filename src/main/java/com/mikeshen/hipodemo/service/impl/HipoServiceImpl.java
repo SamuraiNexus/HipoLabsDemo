@@ -1,8 +1,7 @@
-package com.mikeshen.countrydemo1.service.impl;
+package com.mikeshen.hipodemo.service.impl;
 
-import com.mikeshen.countrydemo1.exception.ResourceNotFoundException;
-import com.mikeshen.countrydemo1.pojo.Hipo;
-import com.mikeshen.countrydemo1.service.HipoService;
+import com.mikeshen.hipodemo.pojo.Hipo;
+import com.mikeshen.hipodemo.service.HipoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;

@@ -1,6 +1,6 @@
-package com.mikeshen.countrydemo1.service;
+package com.mikeshen.hipodemo.service;
 
-import com.mikeshen.countrydemo1.pojo.Hipo;
+import com.mikeshen.hipodemo.pojo.Hipo;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.mikeshen.countrydemo1.pojo;
+package com.mikeshen.hipodemo.pojo;
 
 import lombok.Data;
 

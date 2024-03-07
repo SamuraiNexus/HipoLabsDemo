@@ -1,4 +1,4 @@
-package com.mikeshen.countrydemo1;
+package com.mikeshen.hipodemo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

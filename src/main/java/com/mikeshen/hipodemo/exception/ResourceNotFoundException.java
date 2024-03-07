@@ -1,4 +1,4 @@
-package com.mikeshen.countrydemo1.exception;
+package com.mikeshen.hipodemo.exception;
 
 public class ResourceNotFoundException extends RuntimeException{
     public ResourceNotFoundException(){
