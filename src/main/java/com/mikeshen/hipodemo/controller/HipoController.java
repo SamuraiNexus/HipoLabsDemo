@@ -19,7 +19,8 @@ import java.util.concurrent.ExecutionException;
 public class HipoController {
 
     private final HipoService hipoService;
-    public HipoController(@Autowired HipoService hipoService){
+    @Autowired
+    public HipoController(HipoService hipoService){
         this.hipoService = hipoService;
     }
     @GetMapping

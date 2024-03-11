@@ -3,6 +3,7 @@ package com.mikeshen.hipodemo.service.impl;
 import com.mikeshen.hipodemo.pojo.Hipo;
 import com.mikeshen.hipodemo.service.HipoService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
@@ -19,7 +20,8 @@ public class HipoServiceImpl implements HipoService {
 
 
     private final RestTemplate restTemplate;
-    private String baseUrl = "http://universities.hipolabs.com/search";
+    @Value("${hipolabs.baseUrl}")
+    private String baseUrl;
     @Autowired
     public HipoServiceImpl(RestTemplate restTemplate) {
         this.restTemplate = restTemplate;
@@ -27,6 +29,7 @@ public class HipoServiceImpl implements HipoService {
     @Override
     public Hipo[] getHiposWithouParams() {
         Hipo[] hipoLabs = getByOneQuery(baseUrl, Hipo[].class);
+        System.out.println(baseUrl);
         return hipoLabs;
     }
 
